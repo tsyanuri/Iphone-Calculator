@@ -108,4 +108,14 @@ class MainActivity : AppCompatActivity() {
         showNumbers.setText(finalNumber.toString())
         isNewOp=true
     }
+
+    fun buttonClickPersen(view: View){
+        val number : Double = showNumbers.text.toString().toDouble()/100
+
+        showNumbers.setText(number.toString())
+    }
+    fun buttonClickClean(view: View){
+        showNumbers.setText("0")
+        isNewOp = true
+    }
 }

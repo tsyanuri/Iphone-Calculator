@@ -36,7 +36,7 @@
                 android:layout_height="40pt"
                 android:layout_weight="1"
                 android:background="@color/greynumber"
-                android:onClick="buttonClickNumber"
+                android:onClick="buttonClickClean"
                 android:text="AC"
                 android:textColor="@color/colornumberbl"
                 android:textSize="24sp" />
@@ -58,7 +58,7 @@
                 android:layout_height="40pt"
                 android:layout_weight="1"
                 android:background="@color/greynumber"
-                android:onClick="buttonClickNumber"
+                android:onClick="buttonClickPersen"
                 android:text="%"
                 android:textColor="@color/colornumberbl"
                 android:textSize="24sp" />
